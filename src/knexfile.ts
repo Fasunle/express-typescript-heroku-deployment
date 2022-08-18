@@ -48,6 +48,9 @@ export default {
       directory: __dirname + '/db/migrations',
       tableName: 'knex_migrations',
     },
+    seeds: {
+      directory: __dirname + '/db/seeds',
+    }
   }
 
 };
